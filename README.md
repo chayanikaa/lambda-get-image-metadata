@@ -28,11 +28,11 @@ Project suggestion from Chat GPT
 		- LensModel
 		- Height
 		- Width
-- How would you connect this to CI/CD
+- CI/CD: TODO
 	- CodeBuild/Deploy/Pipeline - connect to Github?
 
 
-### Things to clean up:
+### Things to clean up in AWS project:
 - lambda
 - execution role
 - s3 buckets
@@ -41,3 +41,8 @@ Project suggestion from Chat GPT
 Follow up:
 - Send PR to update the snippet for get S3 to use the new SDK?
 	- https://docs.aws.amazon.com/lambda/latest/dg/with-s3-example.html
+
+
+---
+
+Update: A better way to do something like this would be to use AWS SAM or serverless framework to manage all resources in a config file in the repo

@@ -1,5 +1,5 @@
 {
-  "name": "lambda-image-metadata-1",
+  "name":"lambda-get-image-metadata",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
